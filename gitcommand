@@ -1,0 +1,20 @@
+//clone a project
+git clone https://github.com/Born2Bacon/<myproject>.git
+
+//add new element
+git add <myfilename>
+
+//commit current change
+git commit -m "<comments>"
+
+//pull a project from github
+git pull https://github.com/Born2Bacon/<myproject>/git
+
+//push a project to github
+git push -u origin master
+
+//get git status
+git status
+
+//check git version
+git --version
