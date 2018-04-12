@@ -1,0 +1,30 @@
+
+// report current directory location
+pwd
+
+// go to a new directory
+cd <directory name> 
+
+// show the content of the current directory
+ls -al
+
+// show (number) history of commands
+history <number>
+
+// search for a command in history
+history | grep -i <string of your search>
+
+// sort the output of the history
+history | sort
+
+// sort the history output based on column 
+history | sort -k <number>
+
+// remove duplicate in sort output of history
+sort -u <filename>
+
+// sort lines in file alphabetical order
+sort <filename>
+
+// sort lines in file opposite alphabetical order
+sort -r <filename>
